@@ -28,6 +28,27 @@ body {
 }
 
 .description {
-    font-weight: 300;
+    font-weight: 500;
     font-size: 16px;
 }
+
+.btn {
+    position: relative;
+    margin-top: 15px;
+    display: inline-block;
+    background-color: #F13C6E;
+    padding: 10px 28px;
+    border-radius: 30px;
+    line-height: 1.5;
+    color: white;
+    font-weight: 500;
+    text-transform: capitalize;
+    border: none;
+    font-family: inherit;
+    font-size: 16px;
+    cursor: pointer;
+    user-select: none;
+    overflow: hidden;
+    vertical-align: middle;
+    transition: color 0.3s ease;
+  }
