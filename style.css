@@ -9,15 +9,25 @@
 
 body {
     min-height: 100vh;
-    font-size: 16px;
+    
     font-family: sans-serif;
-    font-weight: 300;
     line-height: 1.5;
     overflow-x: hidden;
     padding: 35px 15px;
   }
 
+  .options {
+      max-width: 148px;
+      text-align: center;
+  }
+
 .image {
-    width: 20%;
-    height: 20%;
+    max-width: 20%;
+    max-height: 20%;
+    vertical-align: middle;
+}
+
+.description {
+    font-weight: 300;
+    font-size: 16px;
 }
