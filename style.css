@@ -236,3 +236,18 @@ body {
   margin: 0 5px;
 }
 
+
+.social-panel p a {
+  color: #ff7500;
+  text-decoration: none;
+}
+
+.social-panel h4 {
+  margin: 20px 0;
+  color: #97a5ce;
+  font-family: "Muli";
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
