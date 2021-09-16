@@ -8,50 +8,51 @@
 }
 
 body {
-    min-height: 100vh;
-    
-    font-family: sans-serif;
-    line-height: 1.5;
-    overflow-x: hidden;
-    padding: 35px 15px;
-  }
+  min-height: 100vh;
 
-  .options {
-      max-width: 148px;
-      text-align: center;
-  }
+  font-family: sans-serif;
+  line-height: 1.5;
+  overflow-x: hidden;
+  padding: 35px 15px;
+}
+
+.options {
+  max-width: 148px;
+  text-align: center;
+}
 
 .image {
-    max-width: 20%;
-    max-height: 20%;
-    vertical-align: middle;
+  max-width: 20%;
+  max-height: 20%;
+  vertical-align: middle;
+  margin-bottom: 15px;
 }
 
 .description {
-    font-weight: 500;
-    font-size: 16px;
+  font-weight: 500;
+  font-size: 16px;
 }
 
 .btn {
-    position: relative;
-    margin-top: 15px;
-    display: inline-block;
-    background-color: #F13C6E;
-    padding: 10px 28px;
-    border-radius: 30px;
-    line-height: 1.5;
-    color: white;
-    font-weight: 500;
-    border: none;
-    font-family: inherit;
-    font-size: 16px;
-    cursor: pointer;
-    user-select: none;
-    overflow: hidden;
-    vertical-align: middle;
-    
-  }
+  position: relative;
+  margin-top: 15px;
+  display: inline-block;
+  background-color: #f13c6e;
+  padding: 10px 28px;
+  border-radius: 30px;
+  line-height: 1.5;
+  color: white;
+  font-weight: 500;
+  border: none;
+  font-family: inherit;
+  font-size: 16px;
+  cursor: pointer;
+  user-select: none;
+  overflow: hidden;
+  vertical-align: middle;
+}
 
-  .btn:hover {
-    transform: scale(1.1);
-  }
+.btn:hover {
+  transform: scale(1.1);
+}
+
