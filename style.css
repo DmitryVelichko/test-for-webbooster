@@ -251,3 +251,15 @@ body {
   text-transform: uppercase;
 }
 
+
+.social-panel ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-panel ul li {
+  margin: 0 10px;
+}
+
