@@ -9,23 +9,35 @@
 
 body {
   min-height: 100vh;
-
   font-family: sans-serif;
   line-height: 1.5;
   overflow-x: hidden;
   padding: 35px 15px;
 }
 
+.wrapper {
+  display: flex;
+  
+}
+
 .options {
-  max-width: 148px;
-  text-align: center;
+
+  width: 148px;
+ 
+  
+}
+
+.card {
+  margin-right: 50px;
 }
 
 .image {
-  max-width: 20%;
-  max-height: 20%;
+  max-width: 100px;
+  max-height: 150px;
   vertical-align: middle;
   margin-bottom: 15px;
+
+  
 }
 
 .description {
@@ -33,7 +45,7 @@ body {
   font-size: 16px;
 }
 
-.btn {
+.buy-btn {
   position: relative;
   margin-top: 15px;
   display: inline-block;
@@ -52,7 +64,7 @@ body {
   vertical-align: middle;
 }
 
-.btn:hover {
+.buy-btn:hover {
   transform: scale(1.1);
 }
 
@@ -171,95 +183,14 @@ body {
   width: 100%;
 }
 
-/* SOCIAL PANEL CSS */
-.social-panel-container {
-  position: fixed;
-  right: 0;
-  bottom: 80px;
-  transform: translateX(100%);
-  transition: transform 0.4s ease-in-out;
-}
- 
-
-.social-panel-container.visible {
-  transform: translateX(-10px);
+.submit-btn:hover {
+  transform: scale(1.1);
 }
 
-.social-panel {
-  background-color: #fff;
-  border-radius: 16px;
-  box-shadow: 0 16px 31px -17px rgba(0, 31, 97, 0.6);
-  border: 5px solid #001f61;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-family: "Muli";
-  position: relative;
-  height: 169px;
-  width: 370px;
-  max-width: calc(100% - 10px);
-}
-
-.social-panel button.close-btn {
-  border: 0;
-  color: #97a5ce;
-  cursor: pointer;
-  font-size: 20px;
-  position: absolute;
-  top: 5px;
-  right: 5px;
-}
-
-.social-panel button.close-btn:focus {
-  outline: none;
+.hide {
+  display: none;
 }
 
 
-.social-panel p {
-  background-color: #001f61;
-  border-radius: 0 0 10px 10px;
-  color: #fff;
-  font-size: 14px;
-  line-height: 18px;
-  padding: 2px 17px 6px;
-  position: absolute;
-  top: 0;
-  left: 50%;
-  margin: 0;
-  transform: translateX(-50%);
-  text-align: center;
-  width: 235px;
-}
 
-.social-panel p i {
-  margin: 0 5px;
-}
-
-
-.social-panel p a {
-  color: #ff7500;
-  text-decoration: none;
-}
-
-.social-panel h4 {
-  margin: 20px 0;
-  color: #97a5ce;
-  font-family: "Muli";
-  font-size: 14px;
-  line-height: 18px;
-  text-transform: uppercase;
-}
-
-
-.social-panel ul {
-  display: flex;
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-.social-panel ul li {
-  margin: 0 10px;
-}
 
