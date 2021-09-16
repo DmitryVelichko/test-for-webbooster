@@ -216,3 +216,23 @@ body {
 }
 
 
+.social-panel p {
+  background-color: #001f61;
+  border-radius: 0 0 10px 10px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 2px 17px 6px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin: 0;
+  transform: translateX(-50%);
+  text-align: center;
+  width: 235px;
+}
+
+.social-panel p i {
+  margin: 0 5px;
+}
+
