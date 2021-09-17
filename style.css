@@ -9,10 +9,12 @@
 
 body {
   min-height: 100vh;
-  font-family: sans-serif;
+  font-family: "Open Sans", sans-serif;
   line-height: 1.5;
   overflow-x: hidden;
   padding: 35px 15px;
+  
+  
 }
 
 .content {
@@ -31,6 +33,10 @@ p {
 
 h1 {
   margin: 20px auto;
+}
+
+img {
+  vertical-align: top;
 }
 
 .img2 {
@@ -56,19 +62,19 @@ h1 {
   margin-right: 50px;
 }
 
-.image {
+.card__image {
   max-width: 100px;
   max-height: 150px;
   vertical-align: middle;
   margin-bottom: 15px;
 }
 
-.description {
+.card__text {
   font-weight: 500;
   font-size: 16px;
 }
 
-.buy-btn {
+.card__buy-btn {
   position: relative;
   margin-top: 15px;
   display: inline-block;
@@ -87,21 +93,13 @@ h1 {
   vertical-align: middle;
 }
 
-.buy-btn:hover {
+.card__buy-btn:hover {
   transform: scale(1.1);
 }
 
 @import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,500&display=swap");
 
-body {
-  font-family: "Open Sans", sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  margin: 0;
-}
 
 .container {
   background-color: #fff;
