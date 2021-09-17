@@ -58,27 +58,21 @@
       <div class="header">
         <h2>Оформить заказ</h2>
       </div>
-      <form id="form" class="form" action="mailto:admin@example.com" enctype="text/plain" method="post">
+      <form id="form" class="form" action="post.php" method="post">
         <div class="form-control">
           <label for="username">Имя</label>
-          <input type="text" placeholder="Иван" id="username" />
-          <i class="fas fa-check-circle"></i>
-          <i class="fas fa-exclamation-circle"></i>
-          <small>Error message</small>
+          <input type="text" placeholder="Иван" id="username" name='name' required/>
+  
         </div>
         <div class="form-control">
           <label for="username">Email</label>
-          <input type="email" placeholder="email@mail.ru" id="email" />
-          <i class="fas fa-check-circle"></i>
-          <i class="fas fa-exclamation-circle"></i>
-          <small>Error message</small>
+          <input type="email" placeholder="email@mail.ru" id="email" name='email' required/>
+          
         </div>
         <div class="form-control">
           <label for="username">Телефон</label>
-          <input type="tel" placeholder="+7 (XXX) XXX-XX-XX" id="tel" />
-          <i class="fas fa-check-circle"></i>
-          <i class="fas fa-exclamation-circle"></i>
-          <small>Error message</small>
+          <input type="tel" placeholder="+7 (XXX) XXX-XX-XX" id="tel" name='tel' required />
+         
         </div>
         <div class="form-control">
           <label for="username">Название товара</label>
@@ -87,9 +81,7 @@
             value='Кресло директорское "Успешный успех"'
             id="password2"
           />
-          <i class="fas fa-check-circle"></i>
-          <i class="fas fa-exclamation-circle"></i>
-          <small>Error message</small>
+          
         </div>
         <button class="submit-btn">Отправить</button>
       </form>
