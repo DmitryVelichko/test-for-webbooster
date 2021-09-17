@@ -15,6 +15,34 @@ body {
   padding: 35px 15px;
 }
 
+.content {
+  max-width: 1040px;
+  width: 100%;
+overflow: hidden;
+padding: 0 15px;
+margin: x auto;
+box-sizing: content-box;
+ 
+}
+
+p {
+  margin: 20px auto;
+}
+
+h1 {
+  margin: 20px auto;
+}
+
+.img2 {
+  width: 80%;
+  height: 80%;
+}
+
+.ordered-list {
+  margin: 20px 15px;
+}
+
+
 .wrapper {
   display: flex;
   flex-wrap: wrap;
