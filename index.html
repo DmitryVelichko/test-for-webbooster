@@ -60,30 +60,44 @@
       </div>
       <form id="form" class="form" action="post.php" method="post">
         <div class="form-control">
-          <label for="username">Имя</label>
-          <input type="text" placeholder="Иван" id="username" name='name' required/>
-  
+          <label for="name">Имя</label>
+          <input
+            type="text"
+            placeholder="Иван"
+            id="name"
+            name="name"
+            required
+          />
         </div>
         <div class="form-control">
-          <label for="username">Email</label>
-          <input type="email" placeholder="email@mail.ru" id="email" name='email' required/>
-          
+          <label for="email">Email</label>
+          <input
+            type="email"
+            placeholder="email@mail.ru"
+            id="email"
+            name="email"
+            required
+          />
         </div>
         <div class="form-control">
-          <label for="username">Телефон</label>
-          <input type="tel" placeholder="+7 (XXX) XXX-XX-XX" id="tel" name='tel' required />
-         
+          <label for="tel">Телефон</label>
+          <input
+            type="tel"
+            placeholder="+7 (XXX) XXX-XX-XX"
+            id="tel"
+            name="tel"
+            required
+          />
         </div>
         <div class="form-control">
-          <label for="username">Название товара</label>
+          <label for="product">Название товара</label>
           <input
             type="text"
             value='Кресло директорское "Успешный успех"'
-            id="password2"
+            name="product"
           />
-          
         </div>
-        <button class="submit-btn">Отправить</button>
+        <button class="submit-btn" type="submit">Отправить</button>
       </form>
     </div>
 

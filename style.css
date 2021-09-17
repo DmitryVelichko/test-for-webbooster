@@ -17,14 +17,10 @@ body {
 
 .wrapper {
   display: flex;
-  
 }
 
 .options {
-
   width: 148px;
- 
-  
 }
 
 .card {
@@ -36,8 +32,6 @@ body {
   max-height: 150px;
   vertical-align: middle;
   margin-bottom: 15px;
-
-  
 }
 
 .description {
@@ -67,7 +61,6 @@ body {
 .buy-btn:hover {
   transform: scale(1.1);
 }
-
 
 @import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,500&display=swap");
@@ -135,7 +128,6 @@ body {
   border-color: #2ecc71;
 }
 
-
 .form-control.error input {
   border-color: #e74c3c;
 }
@@ -151,7 +143,6 @@ body {
   color: #2ecc71;
   visibility: visible;
 }
-
 
 .form-control.error i.fa-exclamation-circle {
   color: #e74c3c;
@@ -169,7 +160,6 @@ body {
 .form-control.error small {
   visibility: visible;
 }
-
 
 .form button {
   background-color: #8e44ad;
@@ -191,7 +181,3 @@ body {
 .hide {
   display: none;
 }
-
-
-
-

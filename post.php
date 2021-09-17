@@ -1,25 +1,25 @@
 <?php
 $name = $_POST['name'];
 $email = $_POST['email'];
-$phone = $_POST['phone'];
+$tel = $_POST['tel'];
 $product = $_POST['product']
 
 $name = htmlspecialchars($name);
 $email = htmlspecialchars($email);
-$phone = htmlspecialchars($phone);
+$tel = htmlspecialchars($tel);
 $product = htmlspecialchars($product);
 
 $name = urldecode($name);
 $email = urldecode($email);
-$phone = urldecode($phone);
+$tel = urldecode($tel);
 $product = urldecode($product);
 
 $name = trim($name);
 $email = trim($email);
-$phone = trim($phone);
+$tel = trim($tel);
 $product = trim($product);
 
-if (mail("gmail@gmail.com"; "Заявка с сайта", "ФИО:".$name.". E-mail: ".$email ,"From: seller@mail.ru \r\n")){
+if (mail("gmail@gmail.com"; "Заявка с сайта", "Имя:".$name.". E-mail: ".$email."Тел.".$tel."Товар: ".$product , "From: mail@mail.ru \r\n")){
 	echo "Заявка отправлена";
 	} 
 	else {

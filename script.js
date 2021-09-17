@@ -1,9 +1,6 @@
 const button = document.querySelector(".submit-btn");
-
 const button2 = document.querySelectorAll(".buy-btn");
-
 const wrapper = document.querySelector(".wrapper");
-
 const container = document.querySelector(".container");
 
 button.addEventListener("click", () => {
