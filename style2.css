@@ -13,7 +13,6 @@ body {
   line-height: 1.5;
   overflow-x: hidden;
   padding: 35px 15px;
-  text-align: center;
 }
 
 .switch-task {
@@ -123,12 +122,12 @@ img {
 
 .form-container {
   display: inline-block;
-
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-
+  margin: 15px 0 15px 0;
   width: 400px;
+  margin-left: 35%;
 }
 
 .header {
@@ -236,5 +235,9 @@ img {
   }
   .card {
     width: 80%;
+  }
+
+  .form-container {
+    margin-left: 0;
   }
 }

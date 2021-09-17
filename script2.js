@@ -2,12 +2,13 @@ const button = document.querySelector(".submit-btn");
 const button2 = document.querySelectorAll(".card__buy-btn");
 const wrapper = document.querySelector(".wrapper");
 const container = document.querySelector(".form-container");
+const container2 = document.querySelector(".container-2");
 
 button.addEventListener("click", () => {
   event.preventDefault();
-
   wrapper.classList.toggle("hide");
   container.classList.toggle("hide");
+  container2.classList.toggle("hide");
 });
 
 button2[0].addEventListener("click", () => {
@@ -15,25 +16,26 @@ button2[0].addEventListener("click", () => {
 
   container.classList.toggle("hide");
   wrapper.classList.toggle("hide");
+  container2.classList.toggle("hide");
 });
 
 button2[1].addEventListener("click", () => {
   event.preventDefault();
-
   container.classList.toggle("hide");
   wrapper.classList.toggle("hide");
+  container2.classList.toggle("hide");
 });
 
 button2[2].addEventListener("click", () => {
   event.preventDefault();
-
   container.classList.toggle("hide");
   wrapper.classList.toggle("hide");
+  container2.classList.toggle("hide");
 });
 
 button2[3].addEventListener("click", () => {
   event.preventDefault();
-
   container.classList.toggle("hide");
   wrapper.classList.toggle("hide");
+  container2.classList.toggle("hide");
 });
